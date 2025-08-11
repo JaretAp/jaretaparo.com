@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;  
+}
+
+html {
+  overflow-x: hidden;
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  z-index: -2;
+}
+
+body {
+  background-color: rgb(213, 213, 244);
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+p {
+  color:rgb(26, 25, 25);
+  font-size: 1.6rem;
+  margin: 1rem 2rem;
+  padding: .5rem;
+}
+
+span {
+  font-size: 3rem;
+}
+
+#first-p span {
+  color: rgb(228, 5, 5);
+}
+
+#second-p span {
+  color: rgb(65, 159, 236);
+}
+
+#fifth-p span {
+  color: rgb(56, 201, 88);
+}
+
+#fourth-p span {
+  color: rgb(52, 78, 129);
+}
+
+#third-p span {
+  color: rgb(253, 253, 253);
+}
+
+#sixth-p span {
+  color: rgb(65, 159, 236);
+}
+
+.outer-box-Desktop {
+  display: flex;
+  justify-items:flex-start;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.outer-box-Mobile {
+  
+  display: none;
+  justify-items:flex-start;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.side{
+  display: inline-block;
+}
+
+#sixth-p {
+  margin-bottom: 2rem;
+}
+
+@media (max-width : 640px) {
+  .outer-box-Desktop {
+    display: none;
+  }
+  .outer-box-Mobile {
+    display: flex;
+  }
+}
