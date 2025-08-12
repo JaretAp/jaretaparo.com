@@ -39,11 +39,11 @@ h1{
 }
 
 #my_journey {
-  font-size: 2.25rem;
+  font-size: 2.50rem;
   margin-top: 4rem;
-  margin-left: 2.5rem;
   font-style: bold;
   color: rgb(10, 100, 173);
+  text-align: center;
 }
 
 p {
@@ -53,6 +53,10 @@ p {
   padding: .5rem;
 }
 
+.message {
+  justify-content: center;
+  display: flex;
+}
 #message_me {
   display: inline-block;
   padding: 10px 20px;
