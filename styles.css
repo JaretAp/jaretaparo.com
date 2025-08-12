@@ -30,12 +30,15 @@ h1{
 
 #certifications {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.50rem;
+  margin-top: -.50rem;
 }
 
 #featured_certifications {
+  margin-top: 3rem;
   font-style: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 #my_journey {
@@ -118,9 +121,17 @@ span {
 }
 
 @media (max-width : 640px) {
+  
+  #certifications {
+  text-align: center;
+  font-size: 1.10rem;
+  margin-top: -1rem;
+  }
+
   .outer-box-Desktop {
     display: none;
   }
+
   .outer-box-Mobile {
     display: flex;
   }
