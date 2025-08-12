@@ -53,6 +53,15 @@ p {
   padding: .5rem;
 }
 
+#message_me {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077b5;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 span {
   font-size: 3rem;
 }
